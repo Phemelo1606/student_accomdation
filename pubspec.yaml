@@ -1,0 +1,65 @@
+name: student_accomdation
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase Core Services ---
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  firebase_messaging: ^16.0.0
+
+  # --- State Management ---
+  flutter_riverpod: ^2.6.1
+
+  # --- Networking / API ---
+  dio: ^5.9.0
+  http: ^1.5.0
+  http_parser: ^4.1.2
+  web3dart: ^3.0.1
+
+  # --- File handling (PDF, uploads, etc.) ---
+  path_provider: ^2.1.5
+  open_filex: ^4.7.0
+  file_picker: ^10.3.2
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  image_picker: ^1.2.0
+
+  # --- Local storage / caching ---
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # --- Notifications & Realtime ---
+  flutter_local_notifications: ^19.4.1
+
+  # --- UI / UX Helpers ---
+  intl: ^0.20.2
+  google_fonts: ^6.3.0
+  flutter_svg: ^2.2.0
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.2
+  carousel_slider: ^5.1.1
+
+  # --- Maps / Location ---
+  google_maps_flutter: ^2.12.3
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  fake_cloud_firestore: ^4.2.0
+  firebase_auth_mocks: ^0.15.2
+
+flutter:
+  uses-material-design: true

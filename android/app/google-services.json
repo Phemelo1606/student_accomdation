@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26243443416",
+    "project_id": "student-accomodation-platform",
+    "storage_bucket": "student-accomodation-platform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26243443416:android:b5fd4e8f349d2b8a73c5ad",
+        "android_client_info": {
+          "package_name": "com.example.student_accomdation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdorja57m9Q4ZPonrPsQIugluEc8-TLK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
